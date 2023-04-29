@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: 'src/main.js',
       name: 'ui-kit',
-      fileName: (format) => `my-component-library.${format}.js`,
+      fileName: (format) => `ui-kit.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],
